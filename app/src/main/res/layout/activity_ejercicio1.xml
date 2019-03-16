@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp"
+    android:padding="@dimen/padding_general"
     tools:context=".Ejercicio1">
 
     <EditText
@@ -13,34 +13,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:hint="Username"/>
+        android:layout_marginTop="@dimen/margen_principal"
+        android:hint="@string/username"/>
 
     <EditText
         android:id="@+id/et_pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:hint="Password"/>
+        android:layout_marginTop="@dimen/margen_principal"
+        android:hint="@string/password"/>
 
     <Button
         android:id="@+id/bt_click"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:background="#B2DFDB"
-        android:textColor="#333333"
-        android:text="Click"/>
+        android:layout_marginTop="@dimen/margen_principal"
+        android:background="@color/backg"
+        android:textColor="@color/txt_color"
+        android:text="@string/txt_click"/>
 
     <TextView
         android:id="@+id/tv_caja"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text=""
-        android:textSize="40sp"
-        android:textColor="#333"
+        android:layout_marginTop="@dimen/margen_principal"
+        android:text="@string/txt_vacio"
+        android:textSize="@dimen/txt_size"
+        android:textColor="@color/txt_color"
         android:layout_gravity="center"/>
 
 </LinearLayout>
